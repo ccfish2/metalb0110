@@ -5,9 +5,9 @@ import (
 	"net"
 
 	"github.com/ccfish2/github.com/ccfish2/metalb0110/pkg/bgp"
-	"github.com/ccfish2/metalb0110/k8s/types"
 	"github.com/ccfish2/metalb0110/pkg/config"
 	"github.com/ccfish2/metalb0110/pkg/k8s"
+	"github.com/ccfish2/metalb0110/pkg/k8s/types"
 	"github.com/ccfish2/metalb0110/pkg/layer2"
 
 	gokitlog "github.com/go-kit/kit/log"
