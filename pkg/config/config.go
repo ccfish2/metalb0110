@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package config // import "github.com/ccfish2/metalb0110/metallb/pkg/config"
+package config // import "github.com/ccfish2/metalb0110config"
 
 import (
 	"errors"

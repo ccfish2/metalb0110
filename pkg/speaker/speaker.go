@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ccfish2/metalb0110/metallb/pkg/bgp"
-	"github.com/ccfish2/metalb0110/metallb/pkg/config"
-	"github.com/ccfish2/metalb0110/metallb/pkg/k8s"
-	"github.com/ccfish2/metalb0110/metallb/pkg/k8s/types"
-	"github.com/ccfish2/metalb0110/metallb/pkg/layer2"
+	"github.com/ccfish2/github.com/ccfish2/metalb0110pkg/bgp"
+	"github.com/ccfish2/metalb0110/pkg/config"
+	"github.com/ccfish2/metalb0110/pkg/k8s"
+	"github.com/ccfish2/metalb0110/pkg/layer2"
+	"github.com/ccfish2/metalb0110k8s/types"
 
 	gokitlog "github.com/go-kit/kit/log"
 	"github.com/prometheus/client_golang/prometheus"

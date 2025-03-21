@@ -1,7 +1,7 @@
 package k8salloc
 
 import (
-	"github.com/ccfish2/metalb0110/metallb/pkg/allocator"
+	"github.com/ccfish2/metalb0110/pkg/allocator"
 	"k8s.io/apimachinery/pkg/labels"
 )
 

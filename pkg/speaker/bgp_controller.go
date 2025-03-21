@@ -23,12 +23,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ccfish2/metalb0110/metallb/pkg/bgp"
-	"github.com/ccfish2/metalb0110/metallb/pkg/config"
-
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/labels"
 
+	"github.com/ccfish2/metalb0110/pkg/bgp"
+	"github.com/ccfish2/metalb0110/pkg/config"
 	"github.com/go-kit/kit/log"
 )
 

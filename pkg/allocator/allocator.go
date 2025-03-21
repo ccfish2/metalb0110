@@ -1,4 +1,4 @@
-package allocator // import "github.com/ccfish2/metalb0110/metallb/pkg/allocator"
+package allocator // import "github.com/ccfish2/metalb0110allocator"
 
 import (
 	"errors"
@@ -7,8 +7,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/ccfish2/metalb0110/metallb/pkg/config"
-
+	"github.com/ccfish2/metalb0110/pkg/config"
 	"github.com/mikioh/ipaddr"
 )
 
