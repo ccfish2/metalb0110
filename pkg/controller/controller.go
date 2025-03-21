@@ -18,10 +18,10 @@ import (
 	"reflect"
 	"sync/atomic"
 
-	"go.universe.tf/metallb/pkg/allocator"
-	"go.universe.tf/metallb/pkg/config"
-	"go.universe.tf/metallb/pkg/k8s"
-	"go.universe.tf/metallb/pkg/k8s/types"
+	"github.com/ccfish2/metalb0110/metallb/pkg/allocator"
+	"github.com/ccfish2/metalb0110/metallb/pkg/config"
+	"github.com/ccfish2/metalb0110/metallb/pkg/k8s"
+	"github.com/ccfish2/metalb0110/metallb/pkg/k8s/types"
 
 	"github.com/go-kit/kit/log"
 	v1 "k8s.io/api/core/v1"

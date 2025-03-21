@@ -1,4 +1,4 @@
-package bgp // import "go.universe.tf/metallb/pkg/bgp"
+package bgp // import "github.com/ccfish2/metalb0110/metallb/pkg/bgp"
 
 import (
 	"bytes"

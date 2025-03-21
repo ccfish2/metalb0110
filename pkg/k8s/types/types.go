@@ -1,4 +1,4 @@
-package types // import "go.universe.tf/metallb/pkg/k8s/types"
+package types // import "github.com/ccfish2/metalb0110/metallb/pkg/k8s/types"
 
 // SyncState is the result of calling synchronization callbacks.
 type SyncState int
