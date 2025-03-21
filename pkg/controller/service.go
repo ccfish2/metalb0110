@@ -19,10 +19,9 @@ import (
 	"net"
 	"sync/atomic"
 
+	"github.com/ccfish2/metalb0110/pkg/allocator/k8salloc"
 	"github.com/go-kit/kit/log"
 	v1 "k8s.io/api/core/v1"
-
-	"github.com/ccfish2/metalb0110allocator/k8salloc"
 )
 
 func (c *Controller) convergeBalancer(l log.Logger, key string, svc *v1.Service) bool {

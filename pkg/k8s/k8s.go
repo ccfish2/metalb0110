@@ -1,4 +1,4 @@
-package k8s // import "github.com/ccfish2/metalb0110k8s"
+package k8s // import "github.com/ccfish2/metalb0110/k8s"
 
 import (
 	"context"
@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/ccfish2/metalb0110/k8s/types"
 	"github.com/ccfish2/metalb0110/pkg/config"
-	"github.com/ccfish2/metalb0110k8s/types"
 
 	"github.com/go-kit/kit/log"
 	"github.com/prometheus/client_golang/prometheus/promhttp"

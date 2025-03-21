@@ -20,7 +20,7 @@ import (
 	"net"
 	"sort"
 
-	"github.com/ccfish2/github.com/ccfish2/metalb0110pkg/config"
+	"github.com/ccfish2/github.com/ccfish2/metalb0110/pkg/config"
 	"github.com/ccfish2/metalb0110/pkg/layer2"
 	"github.com/go-kit/kit/log"
 )
