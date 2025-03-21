@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ccfish2/github.com/ccfish2/metalb0110/pkg/bgp"
+	"github.com/ccfish2/metalb0110/pkg/bgp"
 	"github.com/ccfish2/metalb0110/pkg/config"
 	"github.com/ccfish2/metalb0110/pkg/k8s"
 	"github.com/ccfish2/metalb0110/pkg/k8s/types"
